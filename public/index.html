@@ -10,9 +10,14 @@
     <script src="script.js" defer></script>
 
 </head>
-<body>
-
-    <h1>Starter kit for Tailwind CSS.</h1>
+<body class="h-screen flex items-center justify-center bg-gradient-to-r from-yellow-500 to-orange-500">
+  
+    <time class="container mx-auto block grid lg:grid-cols-4 md:grid-cols-2 border-8 border-solid border-purple-500 rounded-3xl border-b-8">
+      <data class="month block font-sans text-8xl italic hover:not-italic font-semibold">Month</data>
+      <data class="dayOfMonth block font-sans text-8xl italic hover:not-italic flex items-center justify-center underline">00</data>
+      <data class="year block font-sans text-8xl italic hover:not-italic">0000</data>
+      <data class="dayOfWeek block font-sans text-8xl italic hover:not-italic">SMTWTFS</data>
+    </time>
     
 </body>
 </html>
